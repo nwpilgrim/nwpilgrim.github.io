@@ -1,37 +1,25 @@
 <!DOCTYPE html>
-<!-- Means we are using HTML 5 -->
-<!-- Shows that the site is english so Google can translate easier -->
 <html lang="en">
 <head>
   <title>Nicholas Pilgrim-Minaya</title>
   <meta charset="utf-8">
 
-  <!-- Favicon -->
   <link rel="shortcut icon" href="assets/images/clouds.ico">
 
-  <!-- Links to other files -->
   <link rel="stylesheet" href="assets/main.css"/>
 
-  <!-- Bootstrap and Font-awesome CDN's -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <!--Makes sure it's being viewed properly-->
-  <!-- user-scalable doesn't allow ppl to zoom in on mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 
-<!-- APIS -->
-
-<!-- Backup Font if custom one fails -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat" rel="stylesheet" type="text/css">
 
-<!-- The overlay -->
 <div id="myNav" class="overlay">
 
-  <!-- Overlay content -->
   <div class="overlay-content">
     <a href="#about" onclick="closer()">About</a>
     <a href="#skills" onclick="closer()">Skills</a>
@@ -40,10 +28,8 @@
 
 </div>
 
-<!-- Where all the content goes.. -->
 <body>
 
-<!-- Header -->
 <div class="header vertical-center">
 
   <a id="hamburger-icon" href="#" title="Menu" onclick="openNav()">
@@ -62,14 +48,12 @@
   </canvas>
 </div>
 
-<!-- About page -->
 <div class="about padding" id="about">
   <div class="row">
     <div class="container-fluid">
       <div class="col-md-4">
         <div class="profile">
 
-          <!-- Alt is used if the image is not loading -->
           <center><img src="assets/images/profile.jpg" id="portPic" alt="Simple icon" class="img-responsives
             img-circle"></center>
         </div>
@@ -79,9 +63,9 @@
         <div class="about-description">
           <b><h3>About Me</h3></b>
           <hr>
-          <p>Hello! I am Nicholas Pilgrim and I'm a freshmen attending Arizona State University for Computer Science.
+          <p>Hello! I am Nicholas Pilgrim and I am a freshmen attending Arizona State University for Computer Science.
 
-            I am passionate about software technology and am currently looking for a summer internship.
+            I am passionate about software technology and am currently looking for a summer internship to enhance my coding skills.
           </p>
         </div>
       </div>
@@ -89,7 +73,6 @@
   </div>
 </div>
 
-<!-- Skills -->
 <div class="skills padding" id="skills">
   <div class="container" style="font-family: 'Open Sans'">
     <b><h3>Skills</h3></b>
@@ -110,17 +93,16 @@
         <center><i class="contact-icon fa fa-cloud fa-3x"></i>
           <strong><h4>Other</h4></strong></center>
         <ul>
-          <li>Git</li>
+          <li>Git Version Control</li>
           <li>UNIX</li>
+          <li>Windows</li>
         </ul>
         <br>
       </div>
-
     </div>
   </div>
 </div>
 
-<!-- Contact -->
 <div class="contact padding" id="contact">
   <div class="container">
     <b><h3>Contact Me</h3></b>
@@ -153,7 +135,6 @@
   </div>
 </div>
 
-<!-- Imports jquery,bootstrap, and javascript -->
 <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
