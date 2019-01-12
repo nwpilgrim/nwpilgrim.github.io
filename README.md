@@ -1,7 +1,7 @@
 ## Introduction
 Welcome to my portfolio!
 
-This is a site that showcases all of my projects and hobbies that was made from scratch.
+This is a site that showcases all of my projects and hobbies.
 
 Implemented using HTML, CSS, JavaScript, jQuery, Particles.js, BootStrap, and NPM.
 
